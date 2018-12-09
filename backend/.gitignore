@@ -1,4 +1,4 @@
-.idea
+/.idea
 variables.env
 prisma.yml
 /node_modules
