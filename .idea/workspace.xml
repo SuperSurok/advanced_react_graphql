@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f73a6bc-b0c9-4eb5-972c-5803dcc19cec" name="Default Changelist" comment="tofu:">
-      <change afterPath="$PROJECT_DIR$/frontend/components/CreateItem.js" afterDir="false" />
+    <list default="true" id="1f73a6bc-b0c9-4eb5-972c-5803dcc19cec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/build-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/server/pages-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/.next/static/runtime/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/static/runtime/webpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/.next/static/runtime/webpack.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/static/runtime/webpack.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/sell.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/sell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/CreateItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/CreateItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Items.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Items.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,58 +21,83 @@
     <session id="2125882910">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.33" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="3" />
+          <entry key="graphql" value="1" />
+          <entry key="js" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="3" />
+          <entry key="GraphQL" value="1" />
+          <entry key="JavaScript" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="601" />
+          <entry key="js" value="1222" />
+          <entry key="txt" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="601" />
+          <entry key="GraphQL" value="8" />
+          <entry key="JavaScript" value="1214" />
+          <entry key="PLAIN_TEXT" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="PrettierLanguageServiceImpl" value="1" />
+          <entry key="PrettierLanguageServiceImpl" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/pages/sell.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/components/CreateItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="604">
+              <caret line="54" column="37" lean-forward="true" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend/components/CreateItem.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Query.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/components/Items.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -115,9 +138,9 @@
         <option value="$PROJECT_DIR$/frontend/components/Nav.js" />
         <option value="$PROJECT_DIR$/backend/datamodel.graphql" />
         <option value="$PROJECT_DIR$/frontend/pages/index.js" />
-        <option value="$PROJECT_DIR$/frontend/components/Items.js" />
         <option value="$PROJECT_DIR$/frontend/components/Item.js" />
         <option value="$PROJECT_DIR$/frontend/pages/sell.js" />
+        <option value="$PROJECT_DIR$/frontend/components/Items.js" />
         <option value="$PROJECT_DIR$/frontend/components/CreateItem.js" />
       </list>
     </option>
@@ -149,6 +172,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,10 +212,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="sche&#9;FILE&#9;file:///Users/lebedevsergey/projects/react_js/wesbos_react/advanced_react_course/advanced_react_graphql/backend/src/schema.graphql&#10;Query&#9;FILE&#9;file:///Users/lebedevsergey/projects/react_js/wesbos_react/advanced_react_course/advanced_react_graphql/backend/src/resolvers/Query.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.lang.jsgraphql.ide.injection.JSGraphQLLanguageInjectionUtil.gql" value="apollo" />
     <property name="jsgraphql-schema-editor-notification" value="false" />
@@ -253,7 +277,9 @@
       <workItem from="1544729739186" duration="2718000" />
       <workItem from="1544732547100" duration="766000" />
       <workItem from="1544903460672" duration="1136000" />
-      <workItem from="1544904668999" duration="810000" />
+      <workItem from="1544904668999" duration="920000" />
+      <workItem from="1544983093424" duration="3038000" />
+      <workItem from="1544990299796" duration="228000" />
     </task>
     <task id="LOCAL-00001" summary="Next.js, Tooling, Routing, custom _app.js Layout.">
       <created>1543521300577</created>
@@ -325,11 +351,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544733300155</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Create items with mutations.">
+      <created>1544905701068</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1544905701068</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29433000" />
+    <option name="totallyTimeSpent" value="32809000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -344,7 +377,7 @@
     <frame x="0" y="23" width="1280" height="1348" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49881518" visible="true" weight="0.2657512" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49881518" visible="true" weight="0.27382874" />
       <window_info id="Structure" order="1" sideWeight="0.5011848" side_tool="true" weight="0.2494043" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -356,7 +389,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32961783" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32961783" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3280255" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.24442676" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32961783" />
       <window_info anchor="bottom" id="GraphQL" order="12" weight="0.32961783" />
@@ -385,7 +418,8 @@
     <MESSAGE value="Setting Up Apollo Client with React." />
     <MESSAGE value="React meets GraphQL." />
     <MESSAGE value="React meets GraphQL, part 2." />
-    <option name="LAST_COMMIT_MESSAGE" value="React meets GraphQL, part 2." />
+    <MESSAGE value="Create items with mutations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create items with mutations." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/backend/package.json">
@@ -534,13 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/Items.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/Item.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -566,9 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -579,10 +603,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Query.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/Items.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/CreateItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        <state relative-caret-position="604">
+          <caret line="54" column="37" lean-forward="true" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
