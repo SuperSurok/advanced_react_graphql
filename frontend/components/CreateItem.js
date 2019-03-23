@@ -9,17 +9,17 @@ import Error from "./ErrorMessage";
 // language=GraphQL
 const CREATE_ITEM_MUTATION = gql`
     mutation CREATE_ITEM_MUTATION(
-    $title: String!
-    $description: String!
-    $price: Int!
-    $image: String
+    $title: String!,
+    $description: String!,
+    $price: Int!,
+    $image: String,
     $largeImage: String
     ) {
         createItem(
-            title: $title
-            description: $description
-            price: $price
-            image: $image
+            title: $title,
+            description: $description,
+            price: $price,
+            image: $image,
             largeImage: $largeImage
         ) {
             id
@@ -52,6 +52,7 @@ class CreateItem extends Component {
         const res = await fetch(
             "https://api.cloudinary.com/v1_1/dom7cqik7/image/upload",
             {
+                mode: 'no-cors',
                 method: "POST",
                 body: data
             }
