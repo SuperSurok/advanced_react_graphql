@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f73a6bc-b0c9-4eb5-972c-5803dcc19cec" name="Default Changelist" comment="Updating Items with Queries and Mutations.">
-      <change afterPath="$PROJECT_DIR$/frontend/components/UpdateItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/pages/update.js" afterDir="false" />
+    <list default="true" id="1f73a6bc-b0c9-4eb5-972c-5803dcc19cec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/components/DeleteItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/datamodel.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/datamodel.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/resolvers/Query.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/resolvers/Query.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/schema.graphql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/build-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/server/pages-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/.next/static/runtime/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/static/runtime/webpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/.next/static/runtime/webpack.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/static/runtime/webpack.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/CreateItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/CreateItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Item.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Item.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,20 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/components/CreateItem.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend/components/UpdateItem.js">
+        <entry file="file://$PROJECT_DIR$/frontend/components/DeleteItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="82" column="30" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+            <state relative-caret-position="378">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -48,10 +37,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Query.js">
+        <entry file="file://$PROJECT_DIR$/frontend/components/Items.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="324">
+              <caret line="18" selection-end-line="54" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/components/Item.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,15 +63,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="648">
+              <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/createServer.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/backend/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/pages/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -86,8 +112,8 @@
       <find>Access-Control-Allow-Methods</find>
       <find>CreateItem</find>
       <find>CREATE_ITEM_MUTATION</find>
-      <find>fetch</find>
       <find>price</find>
+      <find>fetch</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -107,7 +133,6 @@
         <option value="$PROJECT_DIR$/frontend/pages/_document.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/frontend/.gitignore" />
-        <option value="$PROJECT_DIR$/backend/.gitignore" />
         <option value="$PROJECT_DIR$/backend/variables.env" />
         <option value="$PROJECT_DIR$/backend/prisma.yml" />
         <option value="$PROJECT_DIR$/backend/src/generated/prisma.graphql" />
@@ -115,22 +140,24 @@
         <option value="$PROJECT_DIR$/frontend/pages/items.js" />
         <option value="$PROJECT_DIR$/frontend/components/Nav.js" />
         <option value="$PROJECT_DIR$/frontend/pages/index.js" />
-        <option value="$PROJECT_DIR$/frontend/components/Item.js" />
         <option value="$PROJECT_DIR$/frontend/pages/sell.js" />
-        <option value="$PROJECT_DIR$/frontend/components/Items.js" />
         <option value="$PROJECT_DIR$/backend/src/resolvers/Query.js" />
-        <option value="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" />
         <option value="$PROJECT_DIR$/frontend/pages/update.js" />
-        <option value="$PROJECT_DIR$/backend/src/schema.graphql" />
         <option value="$PROJECT_DIR$/frontend/components/CreateItem.js" />
         <option value="$PROJECT_DIR$/backend/datamodel.graphql" />
         <option value="$PROJECT_DIR$/frontend/components/UpdateItem.js" />
+        <option value="$PROJECT_DIR$/backend/.gitignore" />
+        <option value="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" />
+        <option value="$PROJECT_DIR$/frontend/components/Item.js" />
+        <option value="$PROJECT_DIR$/backend/src/schema.graphql" />
+        <option value="$PROJECT_DIR$/frontend/components/Items.js" />
+        <option value="$PROJECT_DIR$/frontend/components/DeleteItem.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1050" />
+    <option name="width" value="1280" />
     <option name="height" value="1348" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -139,7 +166,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,13 +187,6 @@
             <path>
               <item name="advanced_react_graphql" type="b2602c69:ProjectViewProjectNode" />
               <item name="advanced_react_graphql" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resolvers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advanced_react_graphql" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advanced_react_graphql" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -176,22 +195,11 @@
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="advanced_react_graphql" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advanced_react_graphql" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advanced_react_graphql" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advanced_react_graphql" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,7 +277,10 @@
       <workItem from="1547305670755" duration="5000" />
       <workItem from="1547991961637" duration="1079000" />
       <workItem from="1552839232403" duration="3638000" />
-      <workItem from="1553334614224" duration="6694000" />
+      <workItem from="1553334614224" duration="6957000" />
+      <workItem from="1553343130829" duration="125000" />
+      <workItem from="1553433838448" duration="106000" />
+      <workItem from="1553434023950" duration="2924000" />
     </task>
     <task id="LOCAL-00001" summary="Next.js, Tooling, Routing, custom _app.js Layout.">
       <created>1543521300577</created>
@@ -369,11 +380,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552842836237</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Updating Items with Queries and Mutations.">
+      <created>1553342548414</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1553342548414</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48531000" />
+    <option name="totallyTimeSpent" value="51949000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -385,9 +403,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1050" height="1348" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="1348" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49881518" visible="true" weight="0.20833333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49881518" visible="true" weight="0.35541195" />
       <window_info id="Structure" order="1" sideWeight="0.5011848" side_tool="true" weight="0.2494043" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -398,11 +417,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32961783" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32961783" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.43550956" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49919224" weight="0.32961783" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4983845" visible="true" weight="0.2205414" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5016155" side_tool="true" visible="true" weight="0.2205414" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32961783" />
-      <window_info anchor="bottom" id="GraphQL" order="12" weight="0.32961783" />
+      <window_info anchor="bottom" id="GraphQL" order="12" sideWeight="0.4983845" weight="0.32961783" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -483,13 +502,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backend/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/static/favicon.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -541,34 +553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/generated/prisma.graphql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31061">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/variables.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/prisma.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/Nav.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -600,31 +584,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/Item.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/pages/items.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/Items.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -648,51 +611,6 @@
     <entry file="file://$PROJECT_DIR$/frontend/components/ErrorMessage.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/.graphqlconfig.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/CreateItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/datamodel.graphql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Query.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/createServer.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/pages/sell.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -707,10 +625,163 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/generated/prisma.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/.next/static/runtime/webpack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="895" column="77" selection-start-line="895" selection-start-column="77" selection-end-line="895" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Query.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/createServer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/datamodel.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/.graphqlconfig.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/stripe.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/utils.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/prisma.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/variables.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/CreateItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/UpdateItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="82" column="30" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/Item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../finished-application/frontend/components/Items.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="24" lean-forward="true" selection-end-line="61" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/Items.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" selection-end-line="54" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/DeleteItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
